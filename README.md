@@ -34,10 +34,10 @@ npx mcp-preflight-check@0.1.0 check .mcp.json --ci
 | `ARCHIVED` | blocked | the package's GitHub repository is archived |
 | `VANISHED` | blocked | the package (or the pinned version) is not in the registry |
 | `STALE` | warn | the newest publish across all versions is older than 365 days |
-| `UNPINNED` | info | launched with `npx`/`bunx` without an exact version |
+| `UNPINNED` | info | config entry launched with `npx`/`bunx` without an exact version (not emitted for explicit `--package` checks) |
 | `REMOTE-NO-AUTH` | info | remote URL server with no auth header or token variable in config |
-| `BROKEN-PATH` | warn | local `node`/`python <path>` server whose file does not exist |
-| `UNSUPPORTED-SOURCE` | info | PyPI, container image or unrecognised launcher — no verdict |
+| `BROKEN-PATH` | warn | local script server (`node`, `python`, `deno`, `bun`, `tsx`, `ts-node`, or a path command) whose file does not exist |
+| `UNSUPPORTED-SOURCE` | info | PyPI, container image, unrecognised launcher, non-registry npm spec, or a path containing variables — no verdict |
 | `NO-REPO` | info | package metadata has no GitHub repository; archive status not checkable |
 | `REPO-NOT-FOUND` | info | the repository named in package metadata does not exist on GitHub |
 | `RANGE-NOT-RESOLVED` | info | a semver range was checked against `latest` (no resolver in v1) |
@@ -48,8 +48,9 @@ Per-server verdict: **REFUSE** (any blocked finding) → **WARN** (any warn find
 (a core check could not run) → **OK**. Non-npm servers are **SKIPPED** unless they carry a
 warn/blocked finding of their own. Information findings never change the verdict.
 
-An honest verdict matters more than a green one: a check that could not run is `UNKNOWN`, never
-`OK` and never `REFUSE`.
+An honest verdict matters more than a green one: a failed core lookup (registry unreachable, package
+absent from the offline snapshot, GitHub rate-limited) is `UNKNOWN`, never `OK` and never `REFUSE`.
+Findings that are merely not applicable — such as `NO-REPO` — stay informational.
 
 ## Verdicts and exit codes
 
@@ -63,7 +64,7 @@ An honest verdict matters more than a green one: a check that could not run is `
 
 | Exit code | Meaning |
 |---|---|
-| `0` | no findings at or above `--fail-on` (a clean scan) |
+| `0` | no findings at or above `--fail-on` (`UNKNOWN` findings do not fail) |
 | `1` | usage error or scan error (unreadable/unparseable config); this wins over `2` |
 | `2` | findings at or above `--fail-on` (default: `blocked`) |
 
@@ -81,7 +82,8 @@ be parsed is a scan error (exit 1), and the other configs are still scanned.
 | VS Code | `<cwd>/.vscode/mcp.json`, user-profile `mcp.json` (Code and Code - Insiders) | **`servers`** |
 | VS Code (legacy) | user-profile `settings.json` | `mcp.servers` |
 | GitHub Copilot | `$COPILOT_HOME/mcp-config.json` (default `~/.copilot/…`) | `mcpServers` |
-| Devin Local (ex-Windsurf) | `<cwd>/.devin/mcp_config.json`, `.devin/mcp_config.local.json`, `~/.config/devin/…`; legacy `~/.codeium/windsurf/mcp_config.json` | `mcpServers` |
+| Devin Local | `<cwd>/.devin/mcp_config.json`, `<cwd>/.devin/mcp_config.local.json`, `~/.config/devin/mcp_config.json` | `mcpServers` |
+| Windsurf (legacy) | `~/.codeium/windsurf/mcp_config.json` | `mcpServers` |
 | Gemini CLI | `~/.gemini/settings.json`, `<cwd>/.gemini/settings.json` | `mcpServers` |
 | Codex | `$CODEX_HOME/config.toml` (default `~/.codex/config.toml`), `<cwd>/.codex/config.toml` | `[mcp_servers.<id>]` |
 | OpenCode | `<cwd>/opencode.json[c]`, `~/.config/opencode/opencode.json[c]` | v2 `mcp.servers`, legacy v1 `mcp.<name>` |
@@ -110,9 +112,12 @@ usage error.
 **GitHub rate limits.** Unauthenticated GitHub allows 60 requests/hour. Set `GITHUB_TOKEN` to raise
 it; the token is sent only in online mode, is never printed, and is never written to cache. When the
 limit is hit, archive status becomes `UNKNOWN` for the rest of the run (the process does not fail).
+The dataset builder also reads `GITHUB_TOKEN`; without it, snapshot archive coverage is limited (see
+Known limits).
 
 **Cache.** GitHub results are cached for 7 days in one JSON file. Nothing else is cached, and
-offline mode neither reads nor writes the cache.
+offline mode neither reads nor writes the cache. Set `MCP_PREFLIGHT_CHECK_CACHE_DIR` to override the
+cache directory (the test suite uses this).
 
 | Platform | Cache location |
 |---|---|
@@ -199,6 +204,11 @@ to fail the build. `UNKNOWN` never fails a run.
 - **`time.modified` is ignored** when computing "last published": deprecating a package bumps it.
   The newest real publish is `max(time[version])` over versions that still exist.
 - **No user-level `.mcp.json`.** Claude Code has no such file; only the project one is read.
+- **Offline archive status is only as good as the snapshot.** A package whose repository status was
+  not recorded when the snapshot was built reports `ARCHIVED` as `UNKNOWN`, not `OK`. Rebuild with
+  `GITHUB_TOKEN=… npm run dataset` to populate archive data.
+- **Archive lookups are skipped for servers already refused** by `DEPRECATED` or `VANISHED`; the
+  refusal is final and this preserves GitHub's rate limit. `--verbose` says so explicitly.
 - **Project configs are not searched upward** from nested directories.
 - **`settings.json` contents are never printed.** Only the `mcp.servers` map is read.
 
@@ -227,9 +237,12 @@ npm run build        # tsc → dist/
 npm test             # build + compile tests + node --test (hermetic, no network)
 npm run typecheck
 npm run dataset      # maintainer-only: regenerate data/deprecated.json (network)
+npm run fixtures -- @scope/pkg   # maintainer-only: re-record registry fixtures (network)
 ```
 
-Zero runtime dependencies. Node `>= 22` (Node 20 is end-of-life since 2026-04-30).
+Zero runtime dependencies. Requires Node `>= 22`. Development is pinned to Node 26 via
+`.node-version`; CI tests Node 22, 24 and 26. Use `GITHUB_TOKEN=… npm run dataset` to populate
+archive status in the snapshot.
 
 ## License
 
