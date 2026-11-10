@@ -1,0 +1,51 @@
+{
+  "name": "mcp-preflight-check",
+  "version": "0.1.0",
+  "description": "Refuse a dead MCP server before your agent installs it. Local-first CLI that flags deprecated and archived MCP packages in your agent configs. Offline by default.",
+  "license": "MIT",
+  "author": "Maxim",
+  "type": "module",
+  "bin": {
+    "mcp-preflight-check": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "data",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxya/mcp-preflight-check.git"
+  },
+  "homepage": "https://github.com/maxya/mcp-preflight-check#readme",
+  "bugs": {
+    "url": "https://github.com/maxya/mcp-preflight-check/issues"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "security",
+    "cli",
+    "supply-chain",
+    "local-first",
+    "devsecops",
+    "claude-code"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "pretest": "npm run build",
+    "test": "tsc -p tsconfig.test.json && node --test \"build-test/test/**/*.test.js\"",
+    "typecheck": "tsc -p tsconfig.test.json --noEmit",
+    "dataset": "npm run build && node scripts/build-dataset.mjs",
+    "fixtures": "node scripts/record-fixtures.mjs",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}

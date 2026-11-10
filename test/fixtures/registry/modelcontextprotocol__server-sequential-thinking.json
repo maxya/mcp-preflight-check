@@ -1,0 +1,85 @@
+{
+  "name": "@modelcontextprotocol/server-sequential-thinking",
+  "dist-tags": {
+    "latest": "2.1.1"
+  },
+  "time": {
+    "created": "2024-12-03T13:25:34.621Z",
+    "modified": "2026-11-04T21:36:54.710Z",
+    "0.5.1": "2024-12-03T13:25:34.917Z",
+    "0.6.0": "2024-12-03T16:05:50.828Z",
+    "0.6.1": "2024-12-03T17:52:26.307Z",
+    "0.6.2": "2024-12-04T16:14:58.292Z",
+    "2025.7.1": "2025-07-01T18:32:04.479Z",
+    "2025.11.25": "2025-11-25T19:03:01.504Z",
+    "2025.12.18": "2025-12-18T16:05:40.713Z",
+    "2026.7.4": "2026-07-04T23:05:13.130Z",
+    "2026.8.31": "2026-08-31T20:23:44.857Z",
+    "1.0.0": "2026-10-11T02:42:52.391Z",
+    "2.0.0": "2026-10-19T06:51:18.006Z",
+    "2.1.1": "2026-11-04T21:36:54.382Z"
+  },
+  "repository": {
+    "url": "git+https://github.com/modelcontextprotocol/servers.git",
+    "type": "git"
+  },
+  "versions": {
+    "0.5.1": {
+      "deprecated": "This early version is no longer supported. Install the latest version (1.0.0 or later)."
+    },
+    "0.6.0": {
+      "deprecated": "This early version is no longer supported. Install the latest version (1.0.0 or later)."
+    },
+    "0.6.1": {
+      "deprecated": "This early version is no longer supported. Install the latest version (1.0.0 or later)."
+    },
+    "0.6.2": {
+      "deprecated": "This early version is no longer supported. Install the latest version (1.0.0 or later)."
+    },
+    "2025.7.1": {
+      "deprecated": "Date-based versions are no longer published. This package has resumed semantic versioning at 1.0.0: install the latest version."
+    },
+    "2025.11.25": {
+      "deprecated": "Date-based versions are no longer published. This package has resumed semantic versioning at 1.0.0: install the latest version."
+    },
+    "2025.12.18": {
+      "deprecated": "Date-based versions are no longer published. This package has resumed semantic versioning at 1.0.0: install the latest version.",
+      "repository": {
+        "url": "git+https://github.com/modelcontextprotocol/servers.git",
+        "type": "git"
+      }
+    },
+    "2026.7.4": {
+      "deprecated": "Date-based versions are no longer published. This package has resumed semantic versioning at 1.0.0: install the latest version.",
+      "repository": {
+        "url": "git+https://github.com/modelcontextprotocol/servers.git",
+        "type": "git"
+      }
+    },
+    "2026.8.31": {
+      "deprecated": "Date-based versions are no longer published. This package has resumed semantic versioning at 1.0.0: install the latest version.",
+      "repository": {
+        "url": "git+https://github.com/modelcontextprotocol/servers.git",
+        "type": "git"
+      }
+    },
+    "1.0.0": {
+      "repository": {
+        "url": "git+https://github.com/modelcontextprotocol/servers.git",
+        "type": "git"
+      }
+    },
+    "2.0.0": {
+      "repository": {
+        "url": "git+https://github.com/modelcontextprotocol/servers.git",
+        "type": "git"
+      }
+    },
+    "2.1.1": {
+      "repository": {
+        "url": "git+https://github.com/modelcontextprotocol/servers.git",
+        "type": "git"
+      }
+    }
+  }
+}

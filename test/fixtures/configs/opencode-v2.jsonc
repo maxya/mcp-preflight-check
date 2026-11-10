@@ -1,0 +1,29 @@
+{
+  // OpenCode v2 shape: mcp.servers.<name>
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "servers": {
+      "local": {
+        "type": "local",
+        "command": ["npx", "-y", "@modelcontextprotocol/server-github@2025.4.8"],
+        "environment": {
+          "GITHUB_TOKEN": "ghp_FAKE_SECRET_123"
+        },
+        "enabled": true
+      },
+      "remote": {
+        "type": "remote",
+        "url": "https://mcp.example.com/mcp",
+        "headers": {
+          "Authorization": "Bearer sk-FAKE-TOKEN"
+        },
+        "oauth": false
+      },
+      "off": {
+        "type": "local",
+        "command": ["uvx", "mcp-server-fetch"],
+        "disabled": true
+      }
+    }
+  }
+}

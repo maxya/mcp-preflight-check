@@ -1,0 +1,26 @@
+# Codex config.toml fixture — fake secrets only
+[mcp_servers.github]
+command = "npx"
+args = ["-y", "@modelcontextprotocol/server-github"]
+env = { GITHUB_PERSONAL_ACCESS_TOKEN = "ghp_FAKE_SECRET_123" }
+env_vars = ["GITHUB_TOKEN"]
+enabled = true
+
+[mcp_servers.github.tools.dummy]
+setting = "ignored"
+
+[mcp_servers."remote one"]
+url = "https://mcp.example.com/mcp"
+bearer_token_env_var = "MCP_TOKEN"
+http_headers = { "X-Api-Key" = "key-FAKE-arg" }
+
+[mcp_servers.fetch]
+command = "uvx"
+args = [
+  "mcp-server-fetch", # pypi
+]
+cwd = "/tmp"
+
+[[profiles]]
+name = "ignored-profile"
+model = "gpt-5"

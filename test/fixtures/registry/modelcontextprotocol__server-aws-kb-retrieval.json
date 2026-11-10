@@ -1,0 +1,16 @@
+{
+  "name": "@modelcontextprotocol/server-aws-kb-retrieval",
+  "dist-tags": {
+    "latest": "0.6.2"
+  },
+  "time": {
+    "created": "2025-01-14T00:35:10.253Z",
+    "modified": "2026-09-17T12:02:00.513Z",
+    "0.6.2": "2025-01-14T00:35:10.585Z"
+  },
+  "versions": {
+    "0.6.2": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    }
+  }
+}

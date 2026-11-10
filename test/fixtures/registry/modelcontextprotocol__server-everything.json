@@ -1,0 +1,187 @@
+{
+  "name": "@modelcontextprotocol/server-everything",
+  "dist-tags": {
+    "latest": "2.2.1"
+  },
+  "time": {
+    "created": "2024-11-19T14:14:26.705Z",
+    "modified": "2026-11-04T21:35:44.492Z",
+    "0.1.0": "2024-11-19T14:14:27.044Z",
+    "0.2.0": "2024-11-21T19:14:49.791Z",
+    "0.3.0": "2024-11-21T22:37:11.961Z",
+    "0.5.0": "2024-11-25T13:16:48.543Z",
+    "0.5.1": "2024-11-25T19:58:45.668Z",
+    "0.6.0": "2024-12-03T14:49:58.715Z",
+    "0.6.1": "2024-12-03T17:52:30.236Z",
+    "0.6.2": "2024-12-04T16:14:52.292Z",
+    "2025.1.14": "2025-01-14T01:44:27.394Z",
+    "2025.3.19": "2025-03-19T11:13:05.652Z",
+    "2025.4.8": "2025-04-08T10:08:59.539Z",
+    "2025.4.25": "2025-04-25T08:27:21.653Z",
+    "2025.4.28": "2025-04-28T21:05:19.790Z",
+    "2025.5.12": "2025-05-12T21:29:32.222Z",
+    "2025.7.1": "2025-07-01T18:32:04.301Z",
+    "2025.7.29": "2025-07-31T15:42:37.191Z",
+    "2025.8.4": "2025-08-04T14:52:14.355Z",
+    "2025.8.18": "2025-08-18T15:42:20.741Z",
+    "2025.9.12": "2025-09-15T17:52:27.500Z",
+    "2025.9.24": "2025-09-25T20:52:26.706Z",
+    "2025.9.25": "2025-09-25T21:25:48.741Z",
+    "2025.11.25": "2025-11-25T19:03:00.225Z",
+    "2025.12.18": "2025-12-18T16:05:41.110Z",
+    "2026.1.14": "2026-01-14T16:03:11.711Z",
+    "2026.1.26": "2026-01-27T09:25:57.675Z",
+    "2026.7.4": "2026-07-04T23:05:18.837Z",
+    "2026.8.18": "2026-08-18T16:06:16.850Z",
+    "2026.8.31": "2026-08-31T20:23:50.168Z",
+    "1.0.0": "2026-10-11T02:45:40.915Z",
+    "2.0.0": "2026-10-19T06:50:03.188Z",
+    "2.0.1": "2026-10-25T00:05:16.394Z",
+    "2.1.0": "2026-10-28T21:07:22.285Z",
+    "2.2.1": "2026-11-04T21:35:44.008Z"
+  },
+  "repository": {
+    "url": "git+https://github.com/modelcontextprotocol/servers.git",
+    "type": "git"
+  },
+  "versions": {
+    "0.1.0": {
+      "deprecated": "This early version is no longer supported. Install the latest version (1.0.0 or later)."
+    },
+    "0.2.0": {
+      "deprecated": "This early version is no longer supported. Install the latest version (1.0.0 or later)."
+    },
+    "0.3.0": {
+      "deprecated": "This early version is no longer supported. Install the latest version (1.0.0 or later)."
+    },
+    "0.5.0": {
+      "deprecated": "This early version is no longer supported. Install the latest version (1.0.0 or later)."
+    },
+    "0.5.1": {
+      "deprecated": "This early version is no longer supported. Install the latest version (1.0.0 or later)."
+    },
+    "0.6.0": {
+      "deprecated": "This early version is no longer supported. Install the latest version (1.0.0 or later)."
+    },
+    "0.6.1": {
+      "deprecated": "This early version is no longer supported. Install the latest version (1.0.0 or later)."
+    },
+    "0.6.2": {
+      "deprecated": "This early version is no longer supported. Install the latest version (1.0.0 or later)."
+    },
+    "2025.1.14": {
+      "deprecated": "Date-based versions are no longer published. This package has resumed semantic versioning at 1.0.0: install the latest version."
+    },
+    "2025.3.19": {
+      "deprecated": "Date-based versions are no longer published. This package has resumed semantic versioning at 1.0.0: install the latest version."
+    },
+    "2025.4.8": {
+      "deprecated": "Date-based versions are no longer published. This package has resumed semantic versioning at 1.0.0: install the latest version."
+    },
+    "2025.4.25": {
+      "deprecated": "Date-based versions are no longer published. This package has resumed semantic versioning at 1.0.0: install the latest version."
+    },
+    "2025.4.28": {
+      "deprecated": "Date-based versions are no longer published. This package has resumed semantic versioning at 1.0.0: install the latest version."
+    },
+    "2025.5.12": {
+      "deprecated": "Date-based versions are no longer published. This package has resumed semantic versioning at 1.0.0: install the latest version."
+    },
+    "2025.7.1": {
+      "deprecated": "Date-based versions are no longer published. This package has resumed semantic versioning at 1.0.0: install the latest version."
+    },
+    "2025.7.29": {
+      "deprecated": "Date-based versions are no longer published. This package has resumed semantic versioning at 1.0.0: install the latest version."
+    },
+    "2025.8.4": {
+      "deprecated": "Date-based versions are no longer published. This package has resumed semantic versioning at 1.0.0: install the latest version."
+    },
+    "2025.8.18": {
+      "deprecated": "Date-based versions are no longer published. This package has resumed semantic versioning at 1.0.0: install the latest version."
+    },
+    "2025.9.12": {
+      "deprecated": "Date-based versions are no longer published. This package has resumed semantic versioning at 1.0.0: install the latest version."
+    },
+    "2025.9.24": {
+      "deprecated": "Date-based versions are no longer published. This package has resumed semantic versioning at 1.0.0: install the latest version."
+    },
+    "2025.9.25": {
+      "deprecated": "Date-based versions are no longer published. This package has resumed semantic versioning at 1.0.0: install the latest version."
+    },
+    "2025.11.25": {
+      "deprecated": "Date-based versions are no longer published. This package has resumed semantic versioning at 1.0.0: install the latest version."
+    },
+    "2025.12.18": {
+      "deprecated": "Date-based versions are no longer published. This package has resumed semantic versioning at 1.0.0: install the latest version.",
+      "repository": {
+        "url": "git+https://github.com/modelcontextprotocol/servers.git",
+        "type": "git"
+      }
+    },
+    "2026.1.14": {
+      "deprecated": "Date-based versions are no longer published. This package has resumed semantic versioning at 1.0.0: install the latest version.",
+      "repository": {
+        "url": "git+https://github.com/modelcontextprotocol/servers.git",
+        "type": "git"
+      }
+    },
+    "2026.1.26": {
+      "deprecated": "Date-based versions are no longer published. This package has resumed semantic versioning at 1.0.0: install the latest version.",
+      "repository": {
+        "url": "git+https://github.com/modelcontextprotocol/servers.git",
+        "type": "git"
+      }
+    },
+    "2026.7.4": {
+      "deprecated": "Date-based versions are no longer published. This package has resumed semantic versioning at 1.0.0: install the latest version.",
+      "repository": {
+        "url": "git+https://github.com/modelcontextprotocol/servers.git",
+        "type": "git"
+      }
+    },
+    "2026.8.18": {
+      "deprecated": "Date-based versions are no longer published. This package has resumed semantic versioning at 1.0.0: install the latest version.",
+      "repository": {
+        "url": "git+https://github.com/modelcontextprotocol/servers.git",
+        "type": "git"
+      }
+    },
+    "2026.8.31": {
+      "deprecated": "Date-based versions are no longer published. This package has resumed semantic versioning at 1.0.0: install the latest version.",
+      "repository": {
+        "url": "git+https://github.com/modelcontextprotocol/servers.git",
+        "type": "git"
+      }
+    },
+    "1.0.0": {
+      "repository": {
+        "url": "git+https://github.com/modelcontextprotocol/servers.git",
+        "type": "git"
+      }
+    },
+    "2.0.0": {
+      "repository": {
+        "url": "git+https://github.com/modelcontextprotocol/servers.git",
+        "type": "git"
+      }
+    },
+    "2.0.1": {
+      "repository": {
+        "url": "git+https://github.com/modelcontextprotocol/servers.git",
+        "type": "git"
+      }
+    },
+    "2.1.0": {
+      "repository": {
+        "url": "git+https://github.com/modelcontextprotocol/servers.git",
+        "type": "git"
+      }
+    },
+    "2.2.1": {
+      "repository": {
+        "url": "git+https://github.com/modelcontextprotocol/servers.git",
+        "type": "git"
+      }
+    }
+  }
+}

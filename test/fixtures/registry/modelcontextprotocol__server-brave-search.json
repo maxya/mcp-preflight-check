@@ -1,0 +1,44 @@
+{
+  "name": "@modelcontextprotocol/server-brave-search",
+  "dist-tags": {
+    "latest": "0.6.2"
+  },
+  "time": {
+    "created": "2024-11-21T18:43:21.997Z",
+    "modified": "2026-09-17T12:02:01.807Z",
+    "0.1.0": "2024-11-21T18:43:22.291Z",
+    "0.2.0": "2024-11-21T19:14:44.797Z",
+    "0.3.0": "2024-11-21T22:37:07.187Z",
+    "0.5.0": "2024-11-25T13:16:43.445Z",
+    "0.5.1": "2024-11-25T19:58:39.625Z",
+    "0.6.0": "2024-12-03T14:49:57.093Z",
+    "0.6.1": "2024-12-03T17:52:25.164Z",
+    "0.6.2": "2024-12-04T16:14:49.969Z"
+  },
+  "versions": {
+    "0.1.0": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.2.0": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.3.0": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.5.0": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.5.1": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.6.0": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.6.1": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.6.2": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    }
+  }
+}

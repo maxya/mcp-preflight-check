@@ -1,0 +1,12 @@
+{
+  "editor.fontSize": 14,
+  "files.autoSave": "onFocusChange",
+  "mcp": {
+    "servers": {
+      "everything": {
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-everything@2.2.1"]
+      }
+    }
+  }
+}

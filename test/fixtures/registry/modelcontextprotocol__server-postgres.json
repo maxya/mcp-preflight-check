@@ -1,0 +1,44 @@
+{
+  "name": "@modelcontextprotocol/server-postgres",
+  "dist-tags": {
+    "latest": "0.6.2"
+  },
+  "time": {
+    "created": "2024-11-19T14:14:36.513Z",
+    "modified": "2026-11-05T04:12:06.824Z",
+    "0.1.0": "2024-11-19T14:14:36.814Z",
+    "0.2.0": "2024-11-21T19:15:25.223Z",
+    "0.3.0": "2024-11-21T22:37:44.735Z",
+    "0.5.0": "2024-11-25T13:17:21.422Z",
+    "0.5.1": "2024-11-25T19:58:40.762Z",
+    "0.6.0": "2024-12-03T14:49:57.834Z",
+    "0.6.1": "2024-12-03T17:52:28.951Z",
+    "0.6.2": "2024-12-04T16:14:51.820Z"
+  },
+  "versions": {
+    "0.1.0": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    },
+    "0.2.0": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    },
+    "0.3.0": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    },
+    "0.5.0": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    },
+    "0.5.1": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    },
+    "0.6.0": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    },
+    "0.6.1": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    },
+    "0.6.2": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    }
+  }
+}

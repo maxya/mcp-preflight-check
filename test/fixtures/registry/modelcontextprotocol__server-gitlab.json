@@ -1,0 +1,24 @@
+{
+  "name": "@modelcontextprotocol/server-gitlab",
+  "dist-tags": {
+    "latest": "2025.4.25"
+  },
+  "time": {
+    "created": "2024-12-04T16:14:52.553Z",
+    "modified": "2026-09-17T12:02:09.646Z",
+    "0.6.2": "2024-12-04T16:14:52.890Z",
+    "2025.4.7": "2025-04-07T09:10:53.067Z",
+    "2025.4.25": "2025-04-25T08:27:26.614Z"
+  },
+  "versions": {
+    "0.6.2": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "2025.4.7": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "2025.4.25": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "sequential": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking@2.1.1"]
+    },
+    "remote": {
+      "url": "https://mcp.example.com/mcp",
+      "headers": {
+        "X-Api-Key": "key-FAKE-arg"
+      }
+    },
+    "with-env-file": {
+      "command": "node",
+      "args": ["./server.js"],
+      "envFile": "${workspaceFolder}/.env"
+    }
+  }
+}

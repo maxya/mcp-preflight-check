@@ -1,0 +1,40 @@
+{
+  "name": "@modelcontextprotocol/server-google-maps",
+  "dist-tags": {
+    "latest": "0.6.2"
+  },
+  "time": {
+    "created": "2024-11-21T19:15:15.014Z",
+    "modified": "2026-09-17T12:02:10.210Z",
+    "0.2.0": "2024-11-21T19:15:15.288Z",
+    "0.3.0": "2024-11-21T22:37:36.121Z",
+    "0.5.0": "2024-11-25T13:17:12.841Z",
+    "0.5.1": "2024-11-25T19:58:40.137Z",
+    "0.6.0": "2024-12-03T14:49:59.647Z",
+    "0.6.1": "2024-12-03T17:52:25.395Z",
+    "0.6.2": "2024-12-04T16:14:58.854Z"
+  },
+  "versions": {
+    "0.2.0": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.3.0": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.5.0": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.5.1": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.6.0": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.6.1": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.6.2": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "@modelcontextprotocol/server-slack",
+  "dist-tags": {
+    "latest": "2025.4.25"
+  },
+  "time": {
+    "created": "2024-11-19T14:14:42.351Z",
+    "modified": "2026-09-17T12:02:11.615Z",
+    "0.1.0": "2024-11-19T14:14:42.644Z",
+    "0.2.0": "2024-11-21T19:15:34.622Z",
+    "0.3.0": "2024-11-21T22:37:53.717Z",
+    "0.5.0": "2024-11-25T13:17:30.459Z",
+    "0.5.1": "2024-11-25T19:58:40.988Z",
+    "0.6.0": "2024-12-03T14:50:03.740Z",
+    "0.6.1": "2024-12-03T17:52:25.248Z",
+    "0.6.2": "2024-12-04T16:15:03.304Z",
+    "2025.1.17": "2025-01-17T10:16:57.947Z",
+    "2025.4.25": "2025-04-25T08:27:22.626Z"
+  },
+  "versions": {
+    "0.1.0": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.2.0": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.3.0": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.5.0": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.5.1": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.6.0": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.6.1": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.6.2": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "2025.1.17": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "2025.4.25": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    }
+  }
+}

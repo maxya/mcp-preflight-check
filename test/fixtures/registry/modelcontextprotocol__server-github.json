@@ -1,0 +1,64 @@
+{
+  "name": "@modelcontextprotocol/server-github",
+  "dist-tags": {
+    "latest": "2025.4.8"
+  },
+  "time": {
+    "created": "2024-11-21T19:15:10.035Z",
+    "modified": "2026-11-05T04:13:31.223Z",
+    "0.2.0": "2024-11-21T19:15:10.348Z",
+    "0.3.0": "2024-11-21T22:37:31.655Z",
+    "0.5.0": "2024-11-25T13:17:08.566Z",
+    "0.5.1": "2024-11-25T19:58:42.080Z",
+    "0.6.0": "2024-12-03T14:50:00.907Z",
+    "0.6.1": "2024-12-03T17:52:29.475Z",
+    "0.6.2": "2024-12-04T16:14:53.023Z",
+    "2025.1.17": "2025-01-17T10:16:59.821Z",
+    "2025.1.23": "2025-01-23T11:34:42.195Z",
+    "2025.3.19": "2025-03-19T11:13:07.237Z",
+    "2025.3.28": "2025-03-28T10:41:14.738Z",
+    "2025.4.7": "2025-04-07T09:10:53.701Z",
+    "2025.4.8": "2025-04-08T10:08:59.978Z"
+  },
+  "versions": {
+    "0.2.0": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    },
+    "0.3.0": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    },
+    "0.5.0": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    },
+    "0.5.1": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    },
+    "0.6.0": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    },
+    "0.6.1": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    },
+    "0.6.2": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    },
+    "2025.1.17": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    },
+    "2025.1.23": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    },
+    "2025.3.19": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    },
+    "2025.3.28": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    },
+    "2025.4.7": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    },
+    "2025.4.8": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    }
+  }
+}

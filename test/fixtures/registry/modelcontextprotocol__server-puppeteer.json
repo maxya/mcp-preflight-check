@@ -1,0 +1,44 @@
+{
+  "name": "@modelcontextprotocol/server-puppeteer",
+  "dist-tags": {
+    "latest": "2025.5.12"
+  },
+  "time": {
+    "created": "2024-11-19T14:14:39.500Z",
+    "modified": "2026-11-05T04:14:57.357Z",
+    "0.1.0": "2024-11-19T14:14:39.801Z",
+    "0.2.0": "2024-11-21T19:15:29.949Z",
+    "0.3.0": "2024-11-21T22:37:49.507Z",
+    "0.5.0": "2024-11-25T13:17:26.288Z",
+    "0.5.1": "2024-11-25T19:58:51.634Z",
+    "0.6.2": "2024-12-04T16:15:06.390Z",
+    "2025.4.7": "2025-04-07T09:11:02.887Z",
+    "2025.5.12": "2025-05-12T21:29:35.151Z"
+  },
+  "versions": {
+    "0.1.0": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    },
+    "0.2.0": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    },
+    "0.3.0": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    },
+    "0.5.0": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    },
+    "0.5.1": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    },
+    "0.6.2": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    },
+    "2025.4.7": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    },
+    "2025.5.12": {
+      "deprecated": "Archived and unmaintained; no security guarantees. See https://github.com/modelcontextprotocol/servers-archived"
+    }
+  }
+}

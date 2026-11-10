@@ -1,0 +1,13 @@
+{
+  "mcp": {
+    "legacy": {
+      "type": "local",
+      "command": ["npx", "-y", "some-mcp-server"],
+      "environment": {}
+    },
+    "legacy-remote": {
+      "type": "remote",
+      "url": "https://mcp.example.com/sse"
+    }
+  }
+}

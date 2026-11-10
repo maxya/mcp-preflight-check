@@ -1,0 +1,16 @@
+{
+  "name": "@modelcontextprotocol/server-everart",
+  "dist-tags": {
+    "latest": "0.6.2"
+  },
+  "time": {
+    "created": "2024-12-04T16:14:57.140Z",
+    "modified": "2026-09-17T12:01:59.685Z",
+    "0.6.2": "2024-12-04T16:14:57.446Z"
+  },
+  "versions": {
+    "0.6.2": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    }
+  }
+}

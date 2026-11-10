@@ -1,0 +1,40 @@
+{
+  "name": "@modelcontextprotocol/server-gdrive",
+  "dist-tags": {
+    "latest": "2025.1.14"
+  },
+  "time": {
+    "created": "2024-11-19T14:14:33.274Z",
+    "modified": "2026-09-17T12:02:07.423Z",
+    "0.1.0": "2024-11-19T14:14:33.551Z",
+    "0.2.0": "2024-11-21T19:15:05.090Z",
+    "0.3.0": "2024-11-21T22:37:26.179Z",
+    "0.5.0": "2024-11-25T13:17:03.248Z",
+    "0.5.1": "2024-11-25T19:58:52.463Z",
+    "0.6.2": "2024-12-04T16:15:08.733Z",
+    "2025.1.14": "2025-01-14T01:44:34.879Z"
+  },
+  "versions": {
+    "0.1.0": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.2.0": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.3.0": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.5.0": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.5.1": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.6.2": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "2025.1.14": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "@modelcontextprotocol/server-redis",
+  "dist-tags": {
+    "latest": "2025.4.25"
+  },
+  "time": {
+    "created": "2025-04-07T09:10:54.632Z",
+    "modified": "2026-09-17T12:02:09.072Z",
+    "2025.4.7": "2025-04-07T09:10:54.879Z",
+    "2025.4.25": "2025-04-25T08:27:22.655Z"
+  },
+  "versions": {
+    "2025.4.7": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "2025.4.25": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    }
+  }
+}

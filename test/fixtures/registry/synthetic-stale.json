@@ -1,0 +1,13 @@
+{
+  "name": "synthetic-stale",
+  "dist-tags": { "latest": "1.0.0" },
+  "time": {
+    "created": "2019-12-01T00:00:00.000Z",
+    "modified": "2026-11-01T00:00:00.000Z",
+    "1.0.0": "2020-01-01T00:00:00.000Z"
+  },
+  "repository": null,
+  "versions": {
+    "1.0.0": { "deprecated": null, "repository": null }
+  }
+}

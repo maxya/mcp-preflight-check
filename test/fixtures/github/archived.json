@@ -1,0 +1,7 @@
+{
+  "id": 101,
+  "full_name": "example-org/archived-repo",
+  "html_url": "https://github.com/example-org/archived-repo",
+  "archived": true,
+  "pushed_at": "2024-01-01T00:00:00Z"
+}

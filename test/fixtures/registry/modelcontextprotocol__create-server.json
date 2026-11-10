@@ -1,0 +1,32 @@
+{
+  "name": "@modelcontextprotocol/create-server",
+  "dist-tags": {
+    "latest": "0.3.1"
+  },
+  "time": {
+    "created": "2024-11-18T15:02:35.404Z",
+    "modified": "2026-09-17T12:01:48.157Z",
+    "0.1.0": "2024-11-18T15:02:35.793Z",
+    "0.1.1": "2024-11-18T15:08:39.810Z",
+    "0.2.0": "2024-11-18T15:25:06.914Z",
+    "0.3.0": "2024-11-25T13:11:09.213Z",
+    "0.3.1": "2024-11-25T18:39:48.975Z"
+  },
+  "versions": {
+    "0.1.0": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.1.1": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.2.0": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.3.0": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    },
+    "0.3.1": {
+      "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info."
+    }
+  }
+}

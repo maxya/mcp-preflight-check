@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "remote": {
+      "serverUrl": "https://mcp.example.com/mcp",
+      "headers": {
+        "Authorization": "Bearer sk-FAKE-TOKEN"
+      }
+    },
+    "local": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory@2.1.0"],
+      "env": {
+        "MEMORY_FILE_PATH": "${userHome}/memory.json"
+      }
+    }
+  }
+}
